@@ -1,0 +1,22 @@
+* {
+    margin: 0 ;
+}
+.tercer-seccion {
+    background-color: lightcoral;
+    height: 550px;
+}
+
+.icono {
+    text-align: center;
+    font-size: 70px;
+    color: snow;
+    padding: 50px;
+}
+
+.texto {
+    text-align: center;
+    color: snow;
+    font-size: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
