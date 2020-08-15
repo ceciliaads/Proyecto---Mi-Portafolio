@@ -3,27 +3,21 @@
 }
 
 .primer-seccion {
-    /*background-color: rgba(237, 250, 60, 0.25);*/
-    height: 700px;
-
+    background-color: rgba(237, 250, 60, 0.25);
     display: flex;
     justify-content: center;
     align-items: center;
-
+    padding: 100px;
 }
 
 .section {
     width: 50%;
-    height: 500px;
-    padding-left: 30px;
-    margin-left: 100px;
     font-size: 50px;
 }
 
 .texto {
     font-size: 25px;
 }
-
 
 h1 {
     color: lightcoral;
@@ -38,7 +32,6 @@ h1, .texto, a {
     border-radius: 20px;
     padding: 13px;
     font-size: 20px;
-    margin: 20px;
 }
 
 a, a:visited {
@@ -48,9 +41,6 @@ a, a:visited {
 
 .aside {
     width: 50%;
-    height: 500px;
-    margin-right: 100px;
-    padding-right: 30px;
 }
 
 .img {
@@ -58,25 +48,18 @@ a, a:visited {
     height: auto;
 }
 
-
 @media (max-width: 900px) {
     .primer-seccion {
         flex-direction: column;
         align-items: center;
+        padding: 50px;
     }
-
     .section {
         text-align: center;
         font-size: 30px;
-        margin-right: 100px;
-        padding-right: 30px;
+        width: 100%
     }
-
     .aside {
-    
-        margin-left: 100px;
-        padding-left: 30px;
+        width: 100%
     }
-
-    
 }

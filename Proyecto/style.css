@@ -1,0 +1,286 @@
+* {
+    margin: 0;
+    /*font-family: 'Amatic SC', cursive;*/
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* ---------------------------------------
+                HEADER 
+------------------------------------------ */
+.link-navegacion {
+    display: flex;
+    list-style-type: none;
+    justify-content: flex-end;
+    align-items: center;
+
+
+    color: lightcoral;
+    font-size: 30px;
+
+
+    /*height: 80px;*/
+
+    box-shadow: 0 0 29px 0 rgba(237, 250, 60, 0.25);
+    /*background-color: rgba(219, 215, 215, 0.315);*/
+}
+
+.link {
+    margin-right: 20px;
+    padding: 15px;
+}
+
+.boton {
+    background-color: lightyellow ;
+    border-radius: 20px;
+    padding: 13px;
+    font-size: 30px;
+}
+
+a, a:visited{
+    text-decoration: none;
+    color: lightcoral;
+}
+
+.icono {
+    display: none;
+    
+}
+
+/* ---------------------------------------
+                PRIMER SECCION
+------------------------------------------ */
+
+.primer-seccion {
+    /*background-color: rgba(237, 250, 60, 0.25);*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+.section {
+    width: 50%;
+    font-size: 50px;
+}
+
+.texto {
+    font-size: 25px;
+}
+
+.nombre {
+    color: lightcoral;
+}
+
+h1, .texto, a {
+    margin-bottom: 20px;
+}
+
+.boton {
+    background-color: lightyellow;
+    border-radius: 20px;
+    padding: 13px;
+    font-size: 20px;
+}
+
+a, a:visited {
+    text-decoration: none;
+    color: lightcoral;
+}
+
+.aside {
+    width: 50%;
+}
+
+.img {
+    width: 100%;
+    height: auto;
+}
+
+/* ---------------------------------------
+                SEGUNDA SECCION
+------------------------------------------ */
+
+
+.contenedor-segunda-seccion {
+    background-color: rgba(219, 215, 215, 0.315);
+    display: flex;
+    justify-content: center;
+    /*text-align: center;*/
+
+}
+
+.contenido {
+    text-align: center;
+    /*margin-bottom: 40px;
+    padding: 20px;*/
+    font-size: 25px;
+
+}
+.parrafo {
+    /*margin-top: 30px;*/
+    font-size: 20px;
+}
+
+.segunda-seccion {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    width: 800px;
+
+}
+
+
+.contenedor-img{
+
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    font-weight: bold;
+
+    
+    border: 1px solid lightgrey;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 30px;
+
+    box-sizing: border-box;
+    text-align: center;
+
+}
+
+
+.html, .css, .sass, .javascript, .react, .git {
+
+    width: 90px;
+    height: 90px;
+}
+
+/* ---------------------------------------
+                TERCER SECCION
+------------------------------------------ */
+
+.tercer-seccion {
+    background-color: lightcoral;
+    /*padding: 100px;*/
+    /*height: 550px;*/
+}
+
+.icono-cita {
+    text-align: center;
+    font-size: 70px;
+    color: snow;
+    /*padding: 50px;*/
+}
+
+.texto-cita {
+    text-align: center;
+    color: snow;
+    font-size: 20px;
+
+    /*margin-left: 100px;
+    margin-right: 100px;*/
+}
+
+
+/* ---------------------------------------
+                CUARTA SECCION
+------------------------------------------ */
+
+.contenedor-cuarta-seccion {
+    /*background-color: rgba(237, 250, 60, 0.041);*/
+    display: flex;
+    justify-content: center;
+    /*height: 900px;*/
+
+}
+
+.contenido {
+    text-align: center;
+    /*margin-bottom: 20px;*/
+    /*padding: 20px;*/
+    font-size: 25px;
+}
+
+.pie-de-img {
+    /*margin-top: 30px;*/
+    font-size: 17px;
+    color: black;
+}
+
+.contenedor-proyectos {
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    margin-right: 100px;
+    margin-left: 100px;
+    
+
+}
+
+.contenedor-img-proyectos {
+
+    background-color: white;
+    width: 300px;
+    height: 300px;
+    font-weight: bold;
+
+    box-shadow: 0 0 29px 0 rgba(237, 250, 60, 0.25);
+    border: 1px solid lightgrey;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 30px;
+
+    box-sizing: border-box;
+    text-align: center;
+
+
+}
+
+img {
+
+    width: 180px;
+    height: 180px;
+}
+
+
+
+@media (max-width: 600px) {
+
+   .link-navegacion{
+       display: none;
+    }
+
+    .icono{
+        display: flex;
+        justify-content: flex-end;
+        font-size: 20px;
+        padding: 15px;
+        
+        color:darkgray;
+        box-shadow: 0 0 29px 0 rgba(237, 250, 60, 0.25);
+    }
+
+    
+}
+
+@media (max-width: 900px) {
+    .primer-seccion {
+        flex-direction: column;
+        align-items: center;
+        padding: 50px;
+    }
+    .section {
+        text-align: center;
+        font-size: 30px;
+        width: 100%
+    }
+    .aside {
+        width: 100%
+    }
+}
