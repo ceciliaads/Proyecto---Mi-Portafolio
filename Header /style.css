@@ -1,6 +1,8 @@
-/** {
+* {
     margin: 0;
-}*/
+    font-family: 'Amatic SC', cursive;
+}
+
 
 .link-navegacion {
     display: flex;
@@ -10,14 +12,13 @@
 
 
     color: lightcoral;
-    font-family: 'Amatic SC', cursive;
     font-size: 30px;
 
 
     height: 80px;
 
     box-shadow: 0 0 29px 0 rgba(237, 250, 60, 0.25);
-    background-color: rgba(219, 215, 215, 0.315);
+    /*background-color: rgba(219, 215, 215, 0.315);*/
 }
 
 .link {
@@ -29,6 +30,7 @@
     background-color: lightyellow ;
     border-radius: 20px;
     padding: 13px;
+    font-size: 30px;
 }
 
 a, a:visited{
@@ -51,8 +53,10 @@ a, a:visited{
         display: flex;
         justify-content: flex-end;
         font-size: 20px;
-        color:darkgray;
         padding: 15px;
+        
+        color:darkgray;
+        box-shadow: 0 0 29px 0 rgba(237, 250, 60, 0.25);
     }
 
     
