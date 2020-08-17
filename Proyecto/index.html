@@ -1,18 +1,23 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/konpa/devicon@master/devicon.min.css">
+    <link rel="shortcut icon" type="image/ico" href="favicon.ico">
     <title>Proyecto - Mi Portafolio</title>
 </head>
+
 <body>
 
     <!--------------------------------------------------------------
                 HEADER - BARRA DE NAVEGACION 
     --------------------------------------------------------------->
-    
+
 
     <header class="header">
 
@@ -26,7 +31,9 @@
                 <li class="link"><a href="#contenedor-primer-seccion">HOLA</a></li>
                 <li class="link"><a href="#contenedor-segunda-seccion">CONOCIMIENTOS</a></li>
                 <li class="link"><a href="#contenedor-cuarta-seccion">PROYECTOS</a></li>
-                <li class="link"><div class="boton"><a href="/seccion">CONTACTO</a></div></li>
+                <li class="link">
+                    <div class="boton"><a href="#contenedor-footer">CONTACTO</a></div>
+                </li>
             </ul>
 
         </nav>
@@ -45,18 +52,21 @@
             <section class="section">
 
                 <h3>¡Hola! Soy</h3>
+
                 <h1 class="nombre">Cecilia Da Silva</h1>
+
                 <p class="texto">Estudiante de desarrollo Front-end en Ada.</p>
-                <div class="boton"><a href="/section">LO QUE HAGO</a></div>
 
+                <div class="boton">
+                    <a href="#contenedor-cuarta-seccion">LO QUE HAGO</a>
+                </div>
 
-            
 
             </section>
 
 
-            <aside class="aside">   
-                
+            <aside class="aside">
+
                 <div class="img">
                     <img class="img" src="../Primer-seccion/img/girl-computer-2.svg">
                 </div>
@@ -68,19 +78,20 @@
     </div>
 
 
-<!--------------------------------------------------------------
+    <!--------------------------------------------------------------
                 SEGUNDA SECCION - MIS CONOCIMIENTOS 
     --------------------------------------------------------------->
 
 
     <div id="contenedor-segunda-seccion" class="contenedor-segunda-seccion">
 
-    
+
         <div class="segunda-seccion">
 
             <div class="contenido">
                 <h1>Mis conocimientos</h1>
-                <p class="parrafo">Los lenguajes que domino hasta el momento son HTML5 y CSS3. Durante mi formacion en Ada, estare dominando los lenguajes y tecnologias mencionadas. </p>
+                <p class="parrafo">Los lenguajes que domino hasta el momento son HTML5 y CSS3. Durante mi formacion en
+                    Ada, estare dominando los lenguajes y tecnologias mencionadas. </p>
             </div>
 
             <div class="contenedor-img">
@@ -130,7 +141,9 @@
             </div>
 
             <div class="texto-cita">
-                <p>“Si no eres terco, acabarás por rendirte cada vez que no veas resultados de un experimento. Y si no eres flexible, te darás golpes contra la pared y no verás una solución diferente a la que buscabas para resolver el problema"</p>
+                <p>“Si no eres terco, acabarás por rendirte cada vez que no veas resultados de un experimento. Y si no
+                    eres flexible, te darás golpes contra la pared y no verás una solución diferente a la que buscabas
+                    para resolver el problema"</p>
                 <p>- Jeff Bezos</p>
             </div>
 
@@ -139,7 +152,7 @@
     </div>
 
 
-<!--------------------------------------------------------------
+    <!--------------------------------------------------------------
                 CUARTA SECCION - MIS PROYECTOS
     --------------------------------------------------------------->
 
@@ -149,70 +162,120 @@
         <div class="cuarta-seccion">
 
             <div class="contenido">
-               <h1>Mis Proyectos</h1>
+                <h1>Mis Proyectos</h1>
 
-                <button class="boton"><a href="/seccion">Todos</a></button>
-                <button class="boton-proyectos"><a href="/seccion">HTML/CSS</a></button>
-                <button class="boton-proyectos"><a href="/seccion">Javascript</a></button>
-                <button class="boton-proyectos"><a href="/seccion">React</a></button>
+                <button class="boton"><a href="https://frontend-proyecto-portfolio.adaitw.org/#"
+                        target="_blank">Todos</a></button>
+                <button class="boton-proyectos"><a href="/seccion" target="_blank">HTML/CSS</a></button>
+                <button class="boton-proyectos"><a href="/seccion" target="_blank">Javascript</a></button>
+                <button class="boton-proyectos"><a href="/seccion" target="_blank">React</a></button>
 
             </div>
 
             <div class="contenedor-proyectos">
                 <div class="contenedor-img-proyectos">
-                    <a href="/seccion">
+                    <a href="/section" target="_blank">
                         <img class="portafolio" src="/seccion">
                         <p class="pie-de-img">Portafolio</p>
                     </a>
                 </div>
 
                 <div class="contenedor-img-proyectos">
-                    <a href="/seccion">
+                    <a href="/seccion" target="_blank">
                         <img class="tienda" src="../img/tienda.svg">
                         <p class="pie-de-img">Tienda</p>
                     </a>
                 </div>
 
                 <div class="contenedor-img-proyectos">
-                    <a href="/seccion">
+                    <a href="/seccion" target="_blank">
                         <img class="juego-de-la-memoria" src="../img/juego-de-la-memoria.svg">
                         <p class="pie-de-img">Juego de la memoria</p>
                     </a>
                 </div>
 
                 <div class="contenedor-img-proyectos">
-                    <a href="/seccion">
+                    <a href="/seccion" target="_blank">
                         <img class="controlador-de-gastos" src="../img/controlador-de-gastos.svg">
                         <p class="pie-de-img">Controlador de gastos</p>
                     </a>
                 </div>
 
                 <div class="contenedor-img-proyectos">
-                    <a href="/seccion">
+                    <a href="/seccion" target="_blank">
                         <img class="administrador-de-reuniones" src="../img/administrador-de-reuniones.svg">
                         <p class="pie-de-img">Administrador de reuniones</p>
                     </a>
                 </div>
 
                 <div class="contenedor-img-proyectos">
-                    <a href="/seccion">
+                    <a href="/seccion" target="_blank">
                         <img class="todo-app" src="../img/todo-app.svg">
                         <p class="pie-de-img">Todo app</p>
                     </a>
                 </div>
 
                 <div class="contenedor-img-proyectos">
-                    <a href="/seccion">
+                    <a href="/seccion" target="_blank">
                         <img class="buscador-de-peliculas" src="../img/buscador-de-peliculas.svg">
                         <p class="pie-de-img">Buscador de peliculas</p>
                     </a>
                 </div>
-            
+
             </div>
-        
 
         </div>
 
-    
+    </div>
+
+    <!--------------------------------------------------------------
+                FOOTER - CONTACTO 
+    --------------------------------------------------------------->
+
+
+    <footer id="contenedor-footer" class="footer">
+
+
+        <nav>
+        
+            <ul class="link-navegacion-footer">
+
+                <li><a href="#contenedor-primer-seccion" class="link-footer">HOLA</a></li>
+                <li><a href="#contenedor-segunda-seccion" class="link-footer">CONOCIMIENTOS</a></li>
+                <li><a href="#contenedor-cuarta-seccion" class="link-footer">PROYECTOS</a></li>
+                <li><a href="#contenedor-footer" class="link-footer">CONTACTO</a></li>
+
+            </ul>
+        
+        </nav>
+        
+        <nav>
+        
+            <ul class="link-navegacion-iconos">
+
+                <li>
+                    <a class="iconos-red-social" href="https://www.linkedin.com/in/cecilia-da-silva-a9542a184/" target="_blank">
+                        <i class="devicon-linkedin-plain"></i>
+                    </a>
+                </li>
+                <li>
+                    <a class="iconos-red-social" ref="https://github.com/ceciliaads" target="_blank">
+                        <i class="devicon-github-plain"></i>   
+                    </a>
+                </li>
+            
+                </ul>
+        
+        </nav>
+        
+        
+        
+        <p class="parrafo-footer">Hecho con 💛 por Cecilia Da Silva</p>
+
+    </footer>
+
+
+
 </body>
+
 </html>
