@@ -134,7 +134,7 @@ a, a:visited{
     height: 250px;
     font-weight: bold;
 
-    
+    box-shadow: 0 0 29px 0 rgba(237, 250, 60, 0.25);
     border: 1px solid lightgrey;
     border-radius: 8px;
     margin: 10px;
