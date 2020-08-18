@@ -7,25 +7,24 @@ html {
     scroll-behavior: smooth;
 }
 
+h1{
+    font-family: 'Amatic', cursive;
+}
+
 /* ---------------------------------------
                 HEADER - BARRA DE NAVEGACION
 ------------------------------------------ */
+
 .link-navegacion {
     display: flex;
     list-style-type: none;
     justify-content: flex-end;
     align-items: center;
     
-
-
     color: lightcoral;
-    font-size: 30px;
-
-
-    /*height: 80px;*/
+    font-size: 25px;
 
     box-shadow: 0 0 29px 0 rgba(237, 250, 60, 0.25);
-    /*background-color: rgba(219, 215, 215, 0.315);*/
 }
 
 .link {
@@ -33,11 +32,19 @@ html {
     padding: 15px;
 }
 
+.link:hover, .boton:hover, .boton-proyectos:hover, .link-footer:hover {
+    box-shadow: 0 0 29px 0 rgba(237, 250, 60, 0.25);
+    border-radius: 10px;
+    font-size: 30px;
+}
+
 .boton {
-    background-color: lightyellow ;
+    background-color: lightyellow;
     border-radius: 20px;
     padding: 13px;
-    font-size: 30px;
+    font-size: 25px;
+    width: 150px;
+    text-align: center;
 }
 
 a, a:visited{
@@ -58,7 +65,7 @@ a, a:visited{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 100px;
+    padding: 150px;
 }
 
 .section {
@@ -69,24 +76,11 @@ a, a:visited{
 
 .texto {
     font-size: 25px;
+    padding: 15px;
 }
 
 .nombre {
     color: lightcoral;
-    font-family: 'Amatic', cursive;
-}
-
-/*h1, .texto, a {
-    margin-bottom: 20px;
-}*/
-
-.boton {
-    background-color: lightyellow;
-    border-radius: 20px;
-    padding: 13px;
-    font-size: 30px;
-    width: 150px;
-    text-align: center;
 }
 
 
@@ -99,28 +93,26 @@ a, a:visited{
     height: auto;
 }
 
-/* ---------------------------------------
-                SEGUNDA SECCION
------------------------------------------- */
+/* ----------------------------------------------------
+                SEGUNDA SECCION - MIS CONOCIMIENTOS
+------------------------------------------------------- */
 
 
 .contenedor-segunda-seccion {
     background-color: rgba(219, 215, 215, 0.315);
     display: flex;
     justify-content: center;
-    /*text-align: center;*/
+    padding: 100px;
 
 }
 
 .contenido {
     text-align: center;
-    /*margin-bottom: 40px;
-    padding: 20px;*/
     font-size: 25px;
 
 }
 .parrafo {
-    /*margin-top: 30px;*/
+    padding: 20px;
     font-size: 20px;
 }
 
@@ -129,7 +121,8 @@ a, a:visited{
     justify-content: center;
     flex-wrap: wrap;
     align-content: center;
-    width: 800px;
+    width: 900px;
+    
 
 }
 
@@ -137,8 +130,8 @@ a, a:visited{
 .contenedor-img{
 
     background-color: white;
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
     font-weight: bold;
 
     
@@ -155,59 +148,79 @@ a, a:visited{
 
 .html, .css, .sass, .javascript, .react, .git {
 
-    width: 90px;
-    height: 90px;
+    width: 120px;
+    height: 120px;
 }
 
-/* ---------------------------------------
-                TERCER SECCION
------------------------------------------- */
+/* ----------------------------------------------------
+                TERCER SECCION - CITA
+------------------------------------------------------- */
 
 .tercer-seccion {
     background-color: lightcoral;
-    /*padding: 100px;*/
-    /*height: 550px;*/
+    padding: 100px
+    
 }
 
 .icono-cita {
     text-align: center;
     font-size: 70px;
     color: snow;
-    /*padding: 50px;*/
+    padding: 10px;
 }
 
 .texto-cita {
     text-align: center;
     color: snow;
-    font-size: 20px;
+    font-size: 25px;
+}
 
-    /*margin-left: 100px;
-    margin-right: 100px;*/
+.texto-cita {
+    padding: 10px;
+}
+
+.texto-cita-autor {
+    padding: 10px;
+    font-weight: bold;
 }
 
 
-/* ---------------------------------------
-                CUARTA SECCION
------------------------------------------- */
+/* ------------------------------------------------------
+                CUARTA SECCION - MIS PROYECTOS
+--------------------------------------------------------- */
 
 .contenedor-cuarta-seccion {
-    /*background-color: rgba(237, 250, 60, 0.041);*/
+    
     display: flex;
     justify-content: center;
-    /*height: 900px;*/
 
+}
+
+.cuarta-seccion {
+    padding: 80px;
 }
 
 .contenido {
     text-align: center;
-    /*margin-bottom: 20px;*/
-    /*padding: 20px;*/
+    margin-bottom: 20px;
+    padding: 20px;
     font-size: 25px;
 }
 
+.boton-proyectos {
+    border: 0 solid;
+    padding: 10px;
+    font-size: 25px;
+    width: 100px;
+    text-align: center;
+
+}
+
+
+
 .pie-de-img {
-    /*margin-top: 30px;*/
-    font-size: 17px;
+    padding: 20px;
+    font-size: 25px;
     color: black;
 }
 
@@ -255,7 +268,7 @@ img {
 .footer {
 
     background-color: lightcoral;
-    /*padding: 80px;*/
+    padding: 80px;
 
 }
 
@@ -264,23 +277,23 @@ img {
     list-style-type: none;
     justify-content: center;
     align-items: center;
-    font-size: 15px;
+    font-size: 20px;
+    padding: 20px;
 
 }
 
 .link-footer, .link-footer:visited {
-   /* margin-right: 20px;
-    padding: 15px;*/
+    padding: 15px;
     color: snow;
+    font-size: 25px;
 }
+
 
 
 .link-navegacion-iconos {
 
     display: flex;
     justify-content: center;
-    /*align-items: center;*/
-    /*font-size: 30px;*/
     list-style-type: none;
     padding-right: 40px;
 
@@ -288,19 +301,18 @@ img {
 
 .iconos-red-social, .iconos-red-social:visited {
     
-    font-size: 30px;
-    /*margin: 20px;*/
+    font-size: 40px;
+    margin: 20px;
     text-decoration: none;
     color: snow;
-    
-
     
 }
 
 .parrafo-footer {
     text-align: center;
     color: snow;
-    font-size: 20px;
+    font-size: 25px;
+    padding: 20px;
 }
 
 
@@ -326,10 +338,12 @@ img {
         display: none;
     }
 
+
     
 }
 
 @media (max-width: 900px) {
+
     .primer-seccion {
         flex-direction: column;
         align-items: center;
@@ -344,12 +358,24 @@ img {
         width: 100%
     }
 
-    .boton {
     
-        
-    }
 
     .aside {
         width: 100%
     }
+
+    .botones-proyectos {
+        display: flex;
+
+       
+    }
+
+    .contenedor-proyectos {
+
+        margin-right: 0;
+        margin-left: 0;
+     
+    }
+
+   
 }
