@@ -12,7 +12,7 @@
 
 ## Pueden encontrar mi portafolio 
 
-[aca:https://ceciliaads.github.io/Proyecto---Mi-Portafolio/]
+[aca:] (https://ceciliaads.github.io/Proyecto---Mi-Portafolio/)
 
 
 # My portfolio
@@ -29,7 +29,7 @@
 
 ## You can find my portfolio
 
-[here:https://ceciliaads.github.io/Proyecto---Mi-Portafolio/]
+[here:] (https://ceciliaads.github.io/Proyecto---Mi-Portafolio/)
 
 
 
