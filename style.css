@@ -367,7 +367,6 @@ img {
     .botones-proyectos {
         display: flex;
 
-       
     }
 
     .contenedor-proyectos {
@@ -376,6 +375,13 @@ img {
         margin-left: 0;
      
     }
+
+    .cuarta-seccion {
+
+        padding: 20px;
+
+    }
+    
 
    
 }
