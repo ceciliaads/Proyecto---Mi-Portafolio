@@ -22,11 +22,12 @@
     <header class="header">
 
         <nav>
-
+            <!-- "icono-menu" quiza seria un mejor nombre de clase en este caso -->
             <div class="icono">
                 <i class="fas fa-bars"></i>
             </div>
 
+            <!-- Como esta es una coleccion de links, lo habitual es ponerlo en plural: links-navegacion -->
             <ul class="link-navegacion">
                 <li class="link"><a href="#contenedor-primer-seccion">HOLA</a></li>
                 <li class="link"><a href="#contenedor-segunda-seccion">CONOCIMIENTOS</a></li>
@@ -45,10 +46,13 @@
                 PRIMER SECCION - PRESENTACION 
     --------------------------------------------------------------->
 
+    <!-- Esta etiqueta deberia ser section -->
     <div id="contenedor-primer-seccion">
 
+        <!-- No veo la necesidad de tener este div - podria estar el estilado en la seccion.  -->
         <div class="primer-seccion">
 
+            <!-- Esto no es propiamente una seccion (todo el contenedor lo es), sino, en todo caso, un article -->
             <section class="section">
 
                 <h3>¡Hola! Soy</h3>
@@ -67,6 +71,8 @@
 
             <aside class="aside">
 
+                <!-- El div e img tienen la misma clase - esto no es correcto. Puede traer
+                confusiones a futuro.  -->
                 <div class="img">
                     <img class="img" src="./img/developer.svg">
                 </div>
@@ -82,18 +88,23 @@
                 SEGUNDA SECCION - MIS CONOCIMIENTOS 
     --------------------------------------------------------------->
 
-
+<!-- Este div deberia ser una seccion -->
     <div id="contenedor-segunda-seccion" class="contenedor-segunda-seccion">
 
-
+<!-- Nuevamente, no veo la necesidad de este div aqui.  -->
         <div class="segunda-seccion">
 
+            <!-- "titulo-segunda-seccion" quiza seria un mejor nombre en este caso -->
             <div class="contenido">
+                <!-- Solo debe haber un h1 por pagina: es el texto mas importante de nuestra web. 
+                Este titulo deberia ser un h2, ya que su jerarquia es menor a la de tu nombre.  -->
                 <h1>Mis conocimientos</h1>
                 <p class="parrafo">Los lenguajes que domino hasta el momento son HTML5 y CSS3. Durante mi formacion en
                     Ada, estare dominando los lenguajes y tecnologias mencionadas. </p>
             </div>
 
+            <!-- No hay necesidad de que tus imagenes tengan clases distintas, especialmente si en el css
+            le das el mismo estilado a todas.  -->
             <div class="contenedor-img">
                 <img class="html" src="./img/html.png" />
                 <p class="pie-de-img">HTML 5</p>
@@ -131,15 +142,17 @@
                 TERCER SECCION - CITA
     --------------------------------------------------------------->
 
-
+<!-- Este div deberia ser una section -->
     <div id="contenedor-tercer-seccion">
-
+<!-- No es necesario este div -->
         <div class="tercer-seccion">
 
             <div class="icono-cita">
                 <i class="fas fa-quote-right"></i>
             </div>
 
+            <!-- El div y el parrafo dentro del div tienen el mismo nombre - esto es extraño, 
+            revela algo  mal resuelto en tu web -->
             <div class="texto-cita">
                 <p class="texto-cita">"You never change your life until you step out of your comfort zone; change begins at the end of your comfort zone."</p>
                 <p class="texto-cita-autor">-Roy T. Bennett</p>
@@ -154,15 +167,17 @@
                 CUARTA SECCION - MIS PROYECTOS
     --------------------------------------------------------------->
 
-
+<!-- Este div deberia ser una section -->
     <div id="contenedor-cuarta-seccion">
-
+<!-- No es necesario este div extra -->
         <div class="cuarta-seccion">
 
             <div class="contenido">
+                <!-- Deberia ser h2 -->
                 <h1>Mis Proyectos</h1>
 
                 <div class="botones-proyectos">
+                    <!-- Aqui estas cerrando etiquetas <a> que nunca se abrieron -->
                     <button class="boton">Todos</a></button>
                     <button class="boton-proyectos">HTML/CSS</a></button>
                     <button class="boton-proyectos">Javascript</a></button>
@@ -172,6 +187,8 @@
             </div>
 
             <div class="contenedor-proyectos">
+
+                <!-- No es necesario que las imagenes tengan clases distintas -->
                 <div class="contenedor-img-proyectos">
                     <a href="https://ceciliaads.github.io/Proyecto---Mi-Portafolio/" target="_blank">
                         <img class="portafolio" src="./img/portafolio.png">

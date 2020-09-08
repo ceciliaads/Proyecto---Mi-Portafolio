@@ -7,6 +7,8 @@ html {
     scroll-behavior: smooth;
 }
 
+/* Como importaste Amatic SC, pero no Amatic, no veo bien tus titulos, ni lo hara cualquier otra persona
+que no tenga esa tipografia instalada. */
 h1{
     font-family: 'Amatic', cursive;
 }
@@ -20,7 +22,7 @@ h1{
     list-style-type: none;
     justify-content: flex-end;
     align-items: center;
-    
+    /* No es necesario el color aqui, ya que va en los <a> */
     color: lightcoral;
     font-size: 25px;
 
@@ -63,6 +65,7 @@ a, a:visited{
 
 .primer-seccion {
     display: flex;
+    /* no es necesario justify content aqui  */
     justify-content: center;
     align-items: center;
     padding: 150px;
@@ -145,7 +148,11 @@ a, a:visited{
 
 }
 
-
+/* No es necesario que cada imagen tenga una clase distinta: con una sola para todas
+("imagen-tecnologias") alcanzaba 
+Por otro lado, recorda que no es bueno darle tamaños fijos a las imagenes, ya que pueden
+perder su proporcion. Es mejor rodearlas de un div, darle el tamaño al div, y a las imagenes
+decirles width: 100% */
 .html, .css, .sass, .javascript, .react, .git {
 
     width: 120px;
@@ -169,6 +176,7 @@ a, a:visited{
     padding: 10px;
 }
 
+/* Seleccionas dos veces texto-cita. Todo deberia ir en el mismo selector */
 .texto-cita {
     text-align: center;
     color: snow;
@@ -200,6 +208,7 @@ a, a:visited{
     padding: 80px;
 }
 
+/* Ya tenias un estilo para "contenido" aprox en la linea 110 que ahora pisas en este selector de aca */
 .contenido {
     text-align: center;
     margin-bottom: 20px;
@@ -255,6 +264,9 @@ a, a:visited{
 
 }
 
+/* Si con esta etiqueta querias agarrar a las imagenes de las tarjetas de mis proyectos, deberias
+haberlas seleccionado con algo mas especifico, como una clase. Asi como estan, afectan a todas las 
+imagenes de tu web, y eso puede traerte problemas a futuro */
 img {
 
     width: 180px;
