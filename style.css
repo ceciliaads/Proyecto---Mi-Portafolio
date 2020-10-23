@@ -33,7 +33,7 @@ h1{
 }
 
 .link:hover, .boton:hover, .boton-proyectos:hover, .link-footer:hover {
-    box-shadow: 0 0 29px 0 rgba(237, 250, 60, 0.25);
+    /* box-shadow: 0 0 29px 0 rgba(237, 250, 60, 0.25); */
     border-radius: 10px;
     font-size: 30px;
 }
@@ -52,10 +52,43 @@ a, a:visited{
     color: lightcoral;
 }
 
-.icono {
+.contenedor-responsive {
+
+    position: relative;
+}
+
+
+.menu-responsive {
+
+    box-shadow: 0 0 29px 0 rgba(237, 250, 60, 0.25);
+    position: absolute;
+    width: 40%; 
+    height: 400px;
+    transition: 2s;
+    
+
+
+    
+}
+
+.link-navegacion-responsive {
+    list-style-type: none;
+    font-size: 25px;
+  
+}
+
+.hidden {
+    transform: translateY(-500px);
+}
+
+
+
+.icono-hamburguesa {
     display: none;
     
 }
+
+
 
 /* ---------------------------------------
                 PRIMER SECCION - PRESENTACION
@@ -323,7 +356,7 @@ img {
        display: none;
     }
 
-    .icono{
+    .icono-hamburguesa{
         display: flex;
         justify-content: flex-end;
         font-size: 20px;
@@ -382,6 +415,10 @@ img {
 
     }
     
+    .texto-footer {
+        display: flex;
+        
+    }
 
    
 }
